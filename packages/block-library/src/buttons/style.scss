@@ -5,11 +5,23 @@
 	margin-bottom: $grid-unit-10;
 }
 
+.wp-block-buttons.is-content-justification-left {
+	justify-content: left;
+}
+
+.wp-block-buttons.is-content-justification-center {
+	justify-content: center;
+}
+
+.wp-block-buttons.is-content-justification-right {
+	justify-content: right;
+}
+
+// Kept for backward compatibiity.
 .wp-block-buttons.alignright .wp-block-button {
 	margin-right: 0;
 	margin-left: $grid-unit-10;
 }
-
 .wp-block-buttons.aligncenter {
 	text-align: center;
 }
